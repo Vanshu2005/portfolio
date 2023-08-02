@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     padding:0;
     margin:0;
@@ -25,6 +25,7 @@
 }
 body{
 
+    font-family:"Poppins",sans-serif;
     background-color: var(--bg-color);
     color:var(--text-color);
 }
@@ -64,7 +65,7 @@ span{
     z-index:10001;
     cursor:pointer;
     margin-left:25px;
-    background:var(--hover--color);
+    background:var(--hover-color);
     border-radius:3 px;
     color: var(--secon-bg-color);
     display:none;
@@ -139,23 +140,25 @@ section{
 }
 .info-box h5{
     font-weight:600;
+    width:140px;
+    justify-content: space-between;
     color:var(--text-color);
     font-size:1rem;
 }
 .info-box span{
-    font-size:.8rem;
+    font-size:.9rem;
     color:wheat;
 }
 .btn-box{
       display:flex;
       justify-content:space-between;
-      width:320px;
+      width:350px;
       height:45px;
 }
 .btn-box a.btn{
     display:inline-flex;
     align-items:center;
-    width:170px;
+    width:150px;
     height:100%;
     background: var(--hover-color);
     color:var(--bg-color);
@@ -241,5 +244,26 @@ a.btn:nth-child(2)::before{
 .social-icons a:hover::before{
     width:100%;
 }
+.home-image{
+    position: relative;
+}
+.img-box{
+    text-align:center;
+}
+.img-box img{
+    width:100%;
+    max-width:350px;
+    height:400px;
+}
+.liquid-shape{
+    position: absolute;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    top:20%;
+    left:80%;
+
+}
+
 
 

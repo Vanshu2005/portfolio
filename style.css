@@ -282,24 +282,25 @@ a.btn:nth-child(2)::before{
     height:auto;
 }
 .about-content span{
-    color:fdfdfd;
-    font-size: 1rem;
-    font-weight:200;
+    color:#250821;
+    font-size: 1.3rem;
+    font-weight:400;
     letter-spacing:2px;
     text-transform:uppercase;
 }
 .about-content h2{
-    color:var(--hover-color);
+    color:#292e33;
     font-weight: 700;
     font-size:var(--normal-font);
 }
 .about-content h3{
     font-weight: 600;
     font-size:1.5rem;
+    color:#250821;
     margin-bottom: .2rem;
 }
 .about-content p{
-    color:#fdfdfd;
+    color:black;
     font-weight: 300;
     margin-bottom:1.5rem;
 }
@@ -339,6 +340,10 @@ a.btn:nth-child(2)::before{
     color:var(--hover-color);
     font-size: 1rem;
     font-weight: 600;
+}
+.btn{
+    display: flex;
+    font-size: 17px;
 }
 
 

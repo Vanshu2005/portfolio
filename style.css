@@ -152,7 +152,7 @@ section{
 .btn-box{
       display:flex;
       justify-content:space-between;
-      width:350px;
+      width:340px;
       height:45px;
 }
 .btn-box a.btn{
@@ -346,6 +346,71 @@ a.btn:nth-child(2)::before{
     font-size: 17px;
 }
 
+/* project section */
+.main-text{
+    width:100%;
+    text-align:center;
+    margin-bottom: 2rem;
+    color: var(--hover-color);
+}
+.main-text h2{
+    font-weight: 700;
+    font-size: var(--normal-font);
+}
+.main-text span{
+    color:darksalmon;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.section-projects{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap;
+ grid-gap:2rem;
+}
+
+ .section-projects .project-box{
+    flex:1 1 18rem;
+    padding: 2rem 1rem 2rem;
+    text-align: center;
+    background: var(--secon-bg-color);
+    transition: transform .4s;
+    border-radius: 10px;
+}
+.project-btn{
+    width:auto;
+    justify-content: center;
+}  
+.project-box:hover{
+    transform: translateY(-.7rem);
+}
+.project-icon{
+    border: 2px solid var(--hover-color);
+    padding: 2rem;
+    background: var(--bg-color);
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    border-radius: 50%;
+    position: relative;
+    color:var(--hover-color);
+    box-shadow: var(--neon-box-shadow);
+    outline: 3px solid var(--bg-color);
+}
+.project-box h3{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.project-box p{
+    margin: .5rem 0 1.5rem 0;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #bdbdbd;
+    line-height: 1.6;
+}
 
 
 

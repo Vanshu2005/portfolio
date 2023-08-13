@@ -62,6 +62,7 @@ span{
 }
 .navlist{
     display:flex;
+    
 }
 .navlist a{
     color:var(--text-color);
@@ -70,6 +71,7 @@ span{
     animation: slideAnimation 1s ease forwards;
     animation-delay: calc(.3s*var(--i));
     opacity: 0 ;
+    
 }
 .navlist a:hover{
     color:var(--hover-color);

@@ -15,13 +15,13 @@
             VANSHIKA
         </div>
         <ul class="navlist">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#achivement">ACHIVEMENT</a></li>
+            <li><a href="#home" style="--i:1;">HOME</a></li>
+            <li><a href="#about" style="--i:2;">ABOUT</a></li>
+            <li><a href="#skills" style="--i:3;">SKILLS</a></li>
+            <li><a href="#achivement" style="--i:4;">ACHIVEMENT</a></li>
             <!-- <li><a href="#projects">PROJECT</a></li>
             <li><a href="#other intrest">OTHER INTREST</a></li> -->
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#contact" style="--i:5;">CONTACT</a></li>
         </ul>
         <div id="menu-icon" class="bx bx-menu"></div>
     </header>
@@ -225,10 +225,10 @@
         </div>
         <div class="container">
             <div class="fillter-buttons">
-                <button class="btn" data-filter="all">all </button>
-                <button class="btn" data-filter=".school">school </button>
-                <button class="btn" data-filter=".courses">courses</button>
-                <button class="btn" data-filter=".other">other</button>
+                <!-- <button class="button" data-filter="all">all </button>
+                <button class="button" data-filter=".school">school </button>
+                <button class="button" data-filter=".courses">courses</button>
+                <button class="button" data-filter=".other">other</button> -->
             </div>
 
             <div class="portfolio-gallery">
@@ -321,11 +321,11 @@
             <span> Ask Me A Question</span>
             <p>Contact Me</p>
         </div>
-        <form action="#">
-            <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="Your Email">
-            <input type="text" placeholder="Your Address">
-            <input type="text" placeholder="Phone Number">
+        <form action="form handler.php"  method="post">
+            <input type="text" placeholder="Your Name"required>
+            <input type="text" placeholder="Your Email"required>
+            <input type="text" placeholder="Your Address"required>
+            <input type="text" placeholder="Phone Number"required>
             <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
             <div class="btn-box formBtn">
                 <button type="submit" class="btn">Send Message</button>

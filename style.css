@@ -103,6 +103,7 @@ section{
 }
 .home-content{
      max-width:1000px;
+     padding-top: 2px;
 }
 .home-content h1{
     font-size: var(--big-font);
@@ -113,7 +114,7 @@ section{
  .change-text{
     font-size: 1.5rem;
     font-weight: 600;
-    padding-top: 45px;
+    padding-top: 5px;
  }  
 .change-text h3{
     display: inline-flex;
